@@ -34,7 +34,7 @@ export const gridItems = [
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
-  
+
   },
   {
     id: 4,
@@ -49,9 +49,9 @@ export const gridItems = [
 
   {
     id: 3,
-     title: "My tech stack",
+    title: "My tech stack",
     description: "I constantly try to improve",
-    
+
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -76,15 +76,15 @@ export const projects = [
     title: "EliteEvents ",
     des: " Event Management System is a comprehensive platform that streamlines the planning, coordination, and execution of various events by offering features like attendee registration, Event booking, and schedule management. This system ensures a seamless and organized event experience, enhancing both the planner's efficiency and the attendee's satisfaction",
     img: "/ee.jpg",
-    iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg",  "/c.svg" , "/mo.svg"],
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/c.svg", "/mo.svg"],
     link: "https://elite-events-gules.vercel.app/",
   },
   {
     id: 2,
     title: "Code-Gym",
-    des: "A gym exercise app built with Next.js 14, leverages API implementation to display a wide range of exercises, complete with instructional videos and recommendations for similar equipment exercises. This app provides users with a comprehensive and engaging resource for enhancing their fitness routines.",
+    des: "A gym exercise app built with React.js , leverages API implementation to display a wide range of exercises, complete with instructional videos and recommendations for similar equipment exercises. This app provides users with a comprehensive and engaging resource for enhancing their fitness routines.",
     img: "/cdg.jpg",
-    iconLists: [ "/re.svg","/tail.svg", "/ts.svg" ,"/rapidapi-icon (1).svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/rapidapi-icon (1).svg"],
     link: "https://6666f9ca076b76409083987a--startling-daffodil-8e8efa.netlify.app/",
   },
   // {
@@ -173,16 +173,23 @@ export const companies = [
 
 export const workExperience = [
   {
+    id: 1,
+    title: "Software Engineer I – Apexon",
+    desc: "Working as a Software Engineer I, contributing to frontend development using React and JavaScript. Involved in enhancing UI features, integrating REST APIs, fixing UI and functional bugs, and supporting application stability. Collaborate within Agile teams and follow SDLC and CI/CD practices for feature delivery.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
     id: 2,
     title: "Freelance  Projects",
-    desc: "Currently freelancing, I'm leveraging my expertise to deliver tailored solutions for clients worldwide. Committed to excellence and collaboration, I ensure each project achieves its objectives efficiently.",
+    desc: "Leveraging my expertise to deliver tailored solutions for clients worldwide. Committed to excellence and collaboration, I ensure each project achieves its objectives efficiently.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 1,
-    title: "Business Development Associate ",
-    desc: " Responsible for identifying new business opportunities, building relationships with potential clients, and helping to drive the company's growth By conduct market research, develop strategic plans, and collaborate with sales and marketing teams to enhance the company's market presence and achieve revenue targets",
+    id: 3,
+    title: " Associate ",
+    desc: "Worked in an associate role supporting internal operations and business teams. Assisted with system-related issue resolution, basic data analysis, internal tooling support, and technical documentation. Collaborated with cross-functional teams to improve workflow efficiency and support day-to-day platform operations.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -211,7 +218,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    link: "#", 
+    link: "#",
   },
   {
     id: 3,
